@@ -4,6 +4,7 @@
 }
 
 body {
+  background-image: url(./Photo/background_test.jpg);
   font-family: "Roboto", Helvetica, sans-serif;
 }
 
@@ -32,5 +33,6 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #0F57CF;
+  background-color:rgba(15, 50, 167, 0.45);
+  border-radius: 35px 35px 35px 35px;
 }

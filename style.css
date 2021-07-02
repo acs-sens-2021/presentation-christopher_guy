@@ -1,11 +1,11 @@
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-image: url(./Photo/background_test.jpg);
   font-family: "Roboto", Helvetica, sans-serif;
+  background-image: url(./Photo/background.png);
+  background-size: 100%;
 }
 
 .column {
@@ -32,7 +32,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color:rgba(15, 50, 167, 0.45);
+  background-color:rgba(240, 99, 6, 0.45);
   border-radius: 13%;
 }
 

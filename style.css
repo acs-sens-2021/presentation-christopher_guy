@@ -49,9 +49,15 @@ body {
 }
 
 p, .card:hover>div {
-	display: none;
+  opacity:0;
+  height: 0;
+  padding: 0 8px;
+  overflow: hidden;
+  transition: all .3s ease .15s;
 }
 
 .card:hover>p {
-	display: block;
+  opacity:1;
+  height: 125px;
+  padding: 8px; 
 }

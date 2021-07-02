@@ -47,3 +47,11 @@ body {
 .roundimg {
   border-radius: 50%;
 }
+
+p, .card:hover>div {
+	display: none;
+}
+
+.card:hover>p {
+	display: block;
+}

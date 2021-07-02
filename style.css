@@ -16,9 +16,15 @@ body {
 }
 
 .row {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 -5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -5px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -5px;
 }
 
 @media screen and (max-width: 600px) {
@@ -46,6 +52,10 @@ body {
 
 .roundimg {
   border-radius: 50%;
+}
+
+.logo {
+  padding: 0 39%;
 }
 
 p, .card:hover>div {

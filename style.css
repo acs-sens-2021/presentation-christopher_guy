@@ -37,6 +37,10 @@ body {
   border-radius: 13%;
 }
 
-img {
+.roundimg {
   border-radius: 50%;
+}
+
+.flatimg {
+  padding: 15% 0;
 }

@@ -3,9 +3,10 @@
 }
 
 body {
+  min-height: 100vh;
   font-family: "Roboto", Helvetica, sans-serif;
   background-image: url(./Photo/background.png);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .column {

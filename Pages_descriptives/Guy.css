@@ -1,12 +1,49 @@
 * {
     box-sizing: border-box;
 }
-  
+
 body {
     font-family: "Roboto", Helvetica, sans-serif;
     min-height: 100vh;
     background-image: url(../Photo/background.png);
     background-size: cover;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.one, .two, .three {
+    padding-bottom: 6%;
+}
+
+.five, .six {
+    padding-bottom: 4%;
+    max-width: 480px;
+}
+
+.four {
+    padding-bottom: 4%;
+    max-width: 400px;
+}
+
+.seven {
+    padding-top: 15%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.five, .six {
+   background: rgba(255, 255, 255, 0.5);
+   border-radius: 10%;
+   max-height: 420px;
 }
 
 .card:hover {
@@ -15,7 +52,7 @@ body {
     background-color:rgba(240, 99, 6, 0.55);
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
 }
-  
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -23,21 +60,7 @@ body {
     background-color:rgba(240, 99, 6, 0.45);
     border-radius: 13%;
 }
-  
-.roundimg {
-    border-radius: 50%;
-}
 
-p, .card:hover>div {
-    opacity:0;
-    height: 0;
-    padding: 0 8px;
-    overflow: hidden;
-    transition: all .3s ease .15s;
-}
-
-.card:hover>p {
-    opacity:1;
-    height: 125px;
-    padding: 8px; 
+img {
+    border-radius: 10%;
 }

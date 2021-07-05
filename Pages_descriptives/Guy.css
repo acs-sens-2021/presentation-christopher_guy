@@ -18,11 +18,14 @@ body {
     padding-top: 2%;
 }
 
-.one, .two, .three {
+.one,
+.two,
+.three {
     padding-bottom: 6%;
 }
 
-.five, .six {
+.five,
+.six {
     padding-bottom: 4%;
     max-width: 480px;
 }
@@ -46,10 +49,11 @@ ul {
     list-style-type: none;
 }
 
-.five, .six {
-   background: rgba(255, 255, 255, 0.5);
-   border-radius: 10%;
-   max-height: 420px;
+.five,
+.six {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10%;
+    max-height: 420px;
 }
 
 .card:hover {

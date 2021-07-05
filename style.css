@@ -38,7 +38,7 @@ body {
 .card:hover {
   transition: transform .5s;
   transform: scale(1.05);
-  background-color:rgba(240, 99, 6, 0.55);
+  background-color: rgba(240, 99, 6, 0.55);
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
 }
 
@@ -46,7 +46,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color:rgba(240, 99, 6, 0.45);
+  background-color: rgba(240, 99, 6, 0.45);
   border-radius: 13%;
 }
 
@@ -55,11 +55,12 @@ body {
 }
 
 .logo {
-  padding: 0 32%;
+  padding: 0 26.5%;
 }
 
-p, .card:hover>div {
-  opacity:0;
+p,
+.card:hover>div {
+  opacity: 0;
   height: 0;
   padding: 0 8px;
   overflow: hidden;
@@ -67,7 +68,7 @@ p, .card:hover>div {
 }
 
 .card:hover>p {
-  opacity:1;
+  opacity: 1;
   height: 125px;
-  padding: 8px; 
+  padding: 8px;
 }

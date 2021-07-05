@@ -38,6 +38,8 @@ body {
 
 .seven {
     padding-top: 15%;
+    max-width: 200px;
+    max-height: 400px;
 }
 
 ul {
@@ -48,6 +50,11 @@ ul {
    background: rgba(255, 255, 255, 0.5);
    border-radius: 10%;
    max-height: 420px;
+}
+
+.card:hover {
+    transition: transform .5s;
+    transform: scale(1.05);
 }
 
 img {

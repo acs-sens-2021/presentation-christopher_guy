@@ -27,6 +27,10 @@ body {
     max-width: 480px;
 }
 
+.six {
+    padding-right: 4%;
+}
+
 .four {
     padding-bottom: 4%;
     max-width: 400px;
